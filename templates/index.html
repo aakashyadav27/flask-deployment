@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Automation</title>
+      <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Planisware to OnePager Automation</h1>
+ <form action="/test" method="POST" id="form">
+  <label for="Planisware">Choose a Project Name:</label>
+  <select name="Projects" id="Projects">
+    <option value="PLW_SGO_FastTrack-Fast">Fast-Track Stage-Gate Only Reference Model</option>
+    <option value="009">009-Hemera</option>
+    <option value="036">036-Demeter</option>
+    <option value="011">011-Iris</option>
+      <option value="Internal Medicine">Internal Medicine</option>
+      <option value="ALS Study">ALS Study</option>
+      <option value="Therapeutics ARD">Therapeutics</option>
+      <option value="PLW_BP_FastTrack">Fast-Track Planisware Reference Model1</option>
+      <option value="Clinical Avelumab">Clinical</option>
+      <option value="Pharma Science Project">Pharma Science Project</option>
+      <option value="RSP Vaccine">RSP Vaccine</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+</div>
+</body>
+</html>
